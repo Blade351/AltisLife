@@ -20,13 +20,13 @@ class CfgGather {
         };
 
         class cocaine_unprocessed {
-            amount = 3;
+            amount = 2;
             zones[] = { "cocaine_1" };
             item = "";
         };
 
         class cannabis {
-            amount = 3;
+            amount = 1;
             zones[] = { "weed_1" };
             item = "";
         };
