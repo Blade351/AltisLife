@@ -57,10 +57,18 @@ class WeaponShops {
             { "arifle_CTAR_hex_F", "", 65000, 10000 },			
             { "arifle_Katiba_F", "", 30000, 5000 },
             { "srifle_DMR_01_F", "", 50000, -1 },
+            { "hgun_Rook40_F", "", 6500, 500 },
+            { "hgun_Pistol_heavy_02_F", "", 9850, -1 },
+            { "hgun_ACPC2_F", "", 11500, -1 },
+            { "hgun_Pistol_01_F", "", 10000, -1 },
             { "arifle_SDAR_F", "", 20000, 7500 }
         };
         mags[] = {
             { "30Rnd_556x45_Stanag", "", 300 },
+            { "16Rnd_9x21_Mag", "", 25 },
+            { "6Rnd_45ACP_Cylinder", "", 50 },
+            { "9Rnd_45ACP_Mag", "", 45 },
+            { "10Rnd_9x21_Mag", "", 50 },
             { "30Rnd_45ACP_MAG_01", "", 250 },
             { "30Rnd_65x39_caseless_green", "", 275 },
             { "10Rnd_762x54_Mag", "", 500 },
@@ -166,10 +174,12 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
             { "30Rnd_9x21_Mag", "", 25 },
+            { "30Rnd_9x21_Mag_SMG_02", "", 25 },
             { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 }
         };
         accs[] = {
             { "muzzle_snds_L", "", 650 }
+            { " optic_Aco", "", 650 }
         };
     };
 
