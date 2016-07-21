@@ -25,12 +25,14 @@ class WeaponShops {
             { "hgun_Rook40_F", "", 6500, 500 },
             { "hgun_Pistol_heavy_02_F", "", 9850, -1 },
             { "hgun_ACPC2_F", "", 11500, -1 },
+            { "hgun_Pistol_01_F", "", 10000, -1 },
             { "hgun_PDW2000_F", "", 20000, -1 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
             { "6Rnd_45ACP_Cylinder", "", 50 },
             { "9Rnd_45ACP_Mag", "", 45 },
+            { "10Rnd_9x21_Mag", "", 50 },
             { "30Rnd_9x21_Mag", "", 75 }
         };
         accs[] = {
@@ -45,14 +47,26 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
             { "arifle_TRG20_F", "", 25000, 2500 },
+            { "SMG_01_F", "", 35000, 2500 },
+            { "SMG_05_F", "Protector 9mm", 12500, 10000 },
+            { "arifle_AKS_F", "", 45000, 10000 },
+            { "arifle_AKM_F", "", 55000, 10000 },
+            { "arifle_CTAR_blk_F", "", 65000, 10000 },
+            { "arifle_CTAR_ghex_F", "", 65000, 10000 },
+            { "arifle_CTAR_hex_F", "", 65000, 10000 },			
             { "arifle_Katiba_F", "", 30000, 5000 },
             { "srifle_DMR_01_F", "", 50000, -1 },
             { "arifle_SDAR_F", "", 20000, 7500 }
         };
         mags[] = {
             { "30Rnd_556x45_Stanag", "", 300 },
+            { "30Rnd_45ACP_MAG_01", "", 250 },
             { "30Rnd_65x39_caseless_green", "", 275 },
             { "10Rnd_762x54_Mag", "", 500 },
+            { "30Rnd_9x21_Mag", "", 25 },
+            { "30Rnd_545x39_Mag_F", "", 125 },
+            { "30Rnd_580x42_Mag_F", "", 175 },
+			{ "30Rnd_762x39_Mag_F", "", 175 },
             { "20Rnd_556x45_UW_mag", "", 125 }
         };
         accs[] = {
@@ -137,7 +151,9 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
+            { "arifle_sdar_F", "Taser Rifle", 10000, 7500 },
+            { "SMG_05_F", "Protector 9mm", 20000, 10000 },
+            { "hgun_PDW2000_F", "Personal Defense Weapon (PDW)", 20000, 10000 },
             { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
             { "hgun_P07_F", "", 7500, 1500 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
@@ -148,6 +164,7 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
+            { "30Rnd_9x21_Mag", "", 25 },
             { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 }
         };
         accs[] = {
@@ -163,6 +180,8 @@ class WeaponShops {
         items[] = {
             { "arifle_MX_F", "", 35000, 7500 },
             { "SMG_02_ACO_F", "", 30000, -1 },
+            { "arifle_SPAR_01_blk_F", "", 40000, -1 },
+            { "arifle_Mk20_plain_F", "", 30000, -1 },			
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "acc_flashlight", "", 750, 100 },
             { "optic_Holosight", "", 1200, 275 },
@@ -171,6 +190,7 @@ class WeaponShops {
         };
         mags[] = {
             { "30Rnd_65x39_caseless_mag", "", 130 },
+            { "30Rnd_556x45_Stanag", "", 115 },			
             { "30Rnd_9x21_Mag", "", 250 }
         };
         accs[] = {
@@ -189,7 +209,10 @@ class WeaponShops {
         items[] = {
             { "hgun_ACPC2_F", "", 17500, -1 },
             { "SMG_02_ACO_F", "", 15000, -1 },
+            { "arifle_SPAR_01_blk_F", "", 60000, -1 },
+            { "srifle_EBR_F", "", 80000, -1 },
             { "arifle_MXC_F", "", 30000, 5000 },
+            { "arifle_Mk20C_plain_F", "", 45000, 5000 },			
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "optic_Arco", "", 2500, -1 },
             { "muzzle_snds_H", "", 2750, -1 }
@@ -197,10 +220,15 @@ class WeaponShops {
         mags[] = {
             { "9Rnd_45ACP_Mag", "", 200 },
             { "30Rnd_9x21_Mag", "", 60 },
+            { "20Rnd_762x51_Mag", "", 200 },
+            { "30Rnd_556x45_Stanag", "", 115 },	
             { "30Rnd_65x39_caseless_mag", "", 100 }
         };
         accs[] = {
             { "optic_Arco", "", 2500 },
+            { "optic_SOS", "", 2500 },
+            { "optic_DMS", "", 2500 },
+            { "optic_ERCO_blk_F", "", 3000 },
             { "muzzle_snds_H", "", 2750 }
         };
     };
