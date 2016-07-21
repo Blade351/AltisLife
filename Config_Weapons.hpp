@@ -61,6 +61,9 @@ class WeaponShops {
             { "hgun_Pistol_heavy_02_F", "", 9850, -1 },
             { "hgun_ACPC2_F", "", 11500, -1 },
             { "hgun_Pistol_01_F", "", 10000, -1 },
+            { "NVGogglesB_gry_F", "", 150000, -1 },
+            { "NVGogglesB_grn_F", "", 150000, -1 },
+            { "NVGogglesB_blk_F", "", 150000, -1 },
             { "arifle_SDAR_F", "", 20000, 7500 }
         };
         mags[] = {
@@ -169,6 +172,9 @@ class WeaponShops {
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "FirstAidKit", "", 150, 65 },
+            { "NVGogglesB_gry_F", "", 150000, 65 },
+            { "NVGogglesB_grn_F", "", 150000, 65 },
+            { "NVGogglesB_blk_F", "", 150000, 65 },
             { "NVGoggles", "", 2000, 980 }
         };
         mags[] = {
