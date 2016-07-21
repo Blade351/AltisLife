@@ -19,6 +19,7 @@ class CarShops {
             { "C_Hatchback_01_F", { "", "", -1 } },
             { "C_Offroad_01_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
+            { "I_C_Offroad_02_unarmed_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "", "", -1 } },
             { "C_Van_01_transport_F", { "", "", -1 } }
         };
@@ -75,6 +76,9 @@ class CarShops {
             { "B_Quadbike_01_F", { "", "", -1 } },
             { "B_G_Offroad_01_F", { "", "", -1 } },
             { "O_MRAP_02_F", { "", "", -1 } },
+            { "O_MRAP_02_F", { "", "", -1 } },
+            { "I_MRAP_03_F", { "", "", -1 } },
+            { "O_T_LSV_02_unarmed_F", { "", "", -1 } },
             { "B_Heli_Light_01_stripped_F", { "", "", -1 } },
             { "B_G_Offroad_01_armed_F", { "", "", -1 } }
         };
@@ -101,10 +105,11 @@ class CarShops {
     class cop_car {
         side = "cop";
         vehicles[] = {
-            { "C_Offroad_01_F", { "", "", -1 } },
+            { "C_Offroad_02_unarmed_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "life_coplevel", "SCALAR", 1 } },
             { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 2 } },
+            { "B_T_LSV_01_unarmed_F", { "life_coplevel", "SCALAR", 2 } },
             { "B_MRAP_01_hmg_F", { "life_coplevel", "SCALAR", 3 } }
         };
     };
@@ -497,7 +502,133 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa"
             } }
         };
-    };
+    };    
+	
+	class I_C_Offroad_02_unarmed_F {
+        vItemSpace = 100;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 25000;
+      /**  textures[] = {
+            { "Beige", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base01_co.paa"
+            } },
+            { "Green", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base02_co.paa"
+            } },
+            { "Blue", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base03_co.paa"
+            } },
+            { "Dark Blue", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base04_co.paa"
+            } },
+            { "Yellow", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base06_co.paa"
+            } },
+            { "White", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base07_co.paa"
+            } },
+            { "Grey", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa"
+            } },
+            { "Black", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa"
+            } }
+        };**/
+    }
+	class I_MRAP_03_F {
+        vItemSpace = 100;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 45000;
+      /**  textures[] = {
+            { "Beige", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base01_co.paa"
+            } },
+            { "Green", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base02_co.paa"
+            } },
+            { "Blue", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base03_co.paa"
+            } },
+            { "Dark Blue", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base04_co.paa"
+            } },
+            { "Yellow", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base06_co.paa"
+            } },
+            { "White", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base07_co.paa"
+            } },
+            { "Grey", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa"
+            } },
+            { "Black", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa"
+            } }
+        };**/
+    }	
+	class O_T_LSV_02_unarmed_F {
+        vItemSpace = 100;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 50000;
+      /**  textures[] = {
+            { "Beige", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base01_co.paa"
+            } },
+            { "Green", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base02_co.paa"
+            } },
+            { "Blue", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base03_co.paa"
+            } },
+            { "Dark Blue", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base04_co.paa"
+            } },
+            { "Yellow", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base06_co.paa"
+            } },
+            { "White", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base07_co.paa"
+            } },
+            { "Grey", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa"
+            } },
+            { "Black", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa"
+            } }
+        };**/
+    }
+	
+	class B_T_LSV_01_unarmed_F {
+        vItemSpace = 15;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 35000;
+      /**  textures[] = {
+            { "Beige", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base01_co.paa"
+            } },
+            { "Green", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base02_co.paa"
+            } },
+            { "Blue", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base03_co.paa"
+            } },
+            { "Dark Blue", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base04_co.paa"
+            } },
+            { "Yellow", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base06_co.paa"
+            } },
+            { "White", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base07_co.paa"
+            } },
+            { "Grey", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa"
+            } },
+            { "Black", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa"
+            } }
+        };**/
+    }
 
     class C_SUV_01_F {
         vItemSpace = 50;
