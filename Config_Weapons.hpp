@@ -49,6 +49,7 @@ class WeaponShops {
             { "arifle_TRG20_F", "", 25000, 2500 },
             { "SMG_01_F", "", 35000, 2500 },
             { "SMG_05_F", "Protector 9mm", 12500, 10000 },
+            { "arifle_SPAR_01_blk_F", "", 55000, -1 },
             { "arifle_AKS_F", "", 45000, 10000 },
             { "arifle_AKM_F", "", 55000, 10000 },
             { "arifle_CTAR_blk_F", "", 65000, 10000 },
